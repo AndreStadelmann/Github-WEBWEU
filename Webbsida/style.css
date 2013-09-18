@@ -15,7 +15,7 @@ text {
 
 }
 
-nav ul { 
+#nav ul { 
 	position: relative;
 	top:20px;
 	width: auto;
@@ -29,25 +29,33 @@ nav ul {
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: #999;
-	background-image: url(header.png);
+	background-image:url(images/header.png);
 	background-repeat: no-repeat;
 	background-position: 25% 50%;
+	margin-bottom:20px;
 }
  
-nav ul li {  
+#nav ul li {  
 	display: inline; 
 	} 
  
-nav ul li a {
+#nav ul li a {
 	text-decoration: none;
 	padding: .2em 1em;
 	color: #000;
 	background-color: rgba(34, 34, 34);
 	} 
  
-nav ul li a:hover { 
+#nav ul li a:hover { 
 	color: #ff8c00; 
 	} 
 	
-	
+#headerimg {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	top:0px;
+	width:150px;
+}
 	
