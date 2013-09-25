@@ -1,5 +1,5 @@
 body {
-	background-color:#fff;
+	background-image: url(images/tree_bark.png);
 	color: #000;
 	font-family: 'Nunito', sans-serif;	
 }
@@ -28,12 +28,12 @@ text {
 	border-bottom-color: #ff8c00;
 	border-top-style: solid;
 	border-top-width: 1px;
-	border-top-color: #999;
-	background-image:url(images/header.png);
+	border-top-color: #ff8c00;
+	background-image: url(images/header.png);
 	background-repeat: no-repeat;
 	background-position: 29% 50%;
-	background-size:150px auto;
-	margin-bottom:20px;
+	background-size: 150px auto;
+	margin-bottom: 20px;
 }
  
 #nav ul li {  
@@ -44,7 +44,7 @@ text {
 	text-decoration: none;
 	padding: .2em 1em;
 	color: #000;
-	background-color: rgba(34, 34, 34);
+	background-color: rbg(27, 27 ,27);
 	} 
  
 #nav ul li a:hover { 
