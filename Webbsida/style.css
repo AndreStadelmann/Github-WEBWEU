@@ -2,20 +2,10 @@ body {
 	background-image: url(images/tree_bark.png);
 	color: #000;
 	font-family: 'Nunito', sans-serif;	
+	margin: 0;
 }
 
-text {
-    position: relative;
-	font-family: 'Nunito', sans-serif;
-	font-size: 20px;
-}
-
-#container {
-	border: 1px solid #000000;
-
-}
-
-#nav ul { 
+#nav > ul { 
 	position: relative;
 	top:20px;
 	width: auto;
@@ -32,18 +22,22 @@ text {
 	margin-bottom: 20px;
 }
  
-#nav ul li {  
+#nav > ul > li {  
 	display: inline; 
+	position: relative;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	width: 40px;
 	} 
  
-#nav ul li a {
+#nav > ul > li > a {
 	text-decoration: none;
 	padding: .2em 1em;
 	color: #000;
 	background-color: rbg(27, 27 ,27);
 	} 
  
-#nav ul li a:hover { 
+#nav > ul > li > a:hover { 
 	color: #ff8c00; 
 	} 
 	
@@ -57,11 +51,11 @@ text {
 }
 	
 #logo {
-	display: block;
-	position: absolute;
-	width: 7%;
-	top: 27px;
-	left: 27%;
+	display: inline-block;
+	position: relative;
+	width: 6em;
+	margin-top: -5em;
+	margin-bottom: -3em;
 }
 
 #div1 {
@@ -73,10 +67,33 @@ text {
 	left: 0%;
 	}
 	
-	#twitter {
-		display: block;
-		position: absolute;
-		width: 7%;
-		top: 100%;
-		left: 40%;
+#twitter {
+		display: inline-block;
+		position: relative;
+		width: 6em;
+		left: 15em;
 	}
+	
+#jimbutton {
+		display: inline-block;
+		position: relative;
+		width: 6em;
+		left: 15em;
+	}
+	
+#facebook {
+		display: inline-block;
+		position: relative;
+		width: 6em;
+		left: 15em;
+	}
+	
+#copyright {
+		display: inline-block;
+		position: relative;
+		width: 20em;
+		left: 5em;
+		margin-bottom: 30em;
+		bottom: 2em;
+		}
+		
