@@ -1,0 +1,28 @@
+table {
+	border: 1px solid #000;
+	font-family: Verdana, tahoma, sans-serif;
+	border-collapse: collapse;
+}
+
+thead {
+	background: #78AF2C;
+	color: #fff;
+}
+
+table,th, td {
+	border: 1px solid #78AF2C;
+}
+
+tr:hover, tr:target {
+	background-color: #78AF2C;
+	color: #fff;
+}
+
+
+tr {
+	-webkit-transition: color 1s, background-color 1s;
+	-moz-transition: color 1s, background-color 1s;
+	-ms-transition: color 1s, background-color 1s;
+	-o-transition: color 1s, background-color 1s;
+	transition: color 1s, background-color 1s;
+}
