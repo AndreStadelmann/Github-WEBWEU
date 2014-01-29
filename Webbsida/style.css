@@ -3,6 +3,7 @@ body {
 	color: #000;
 	font-family: 'Nunito', sans-serif;	
 	margin: 0;
+	font-size: 62.5%;
 }
 
 header {
@@ -12,12 +13,19 @@ header {
 #container {
 	position: absolute;
 	background: rgba(0,105,87,0.44);
-	height: 100px;
+	height: auto;
 	width: 50%;
 	left: 25%;
 	border-radius: 5px;
+	margin: 1em;
+	padding: 0px 10px 10px 10px;
 }
 
+#container > h1 {
+	margin-top: 0;
+	font-size: 40px;
+	border-bottom: 2px solid #000;
+}
 footer {
 		background: rgba(0, 105, 87, 0.7);
 	width: 100%;
@@ -63,7 +71,7 @@ footer > a {
 	} 
  
 #nav > ul > li > a:hover { 
-	color: #ff8c00; 
+	color: #006957; 
 	} 
 	
 #headerimg {
@@ -78,9 +86,9 @@ footer > a {
 #logo {
 	display: inline-block;
 	position: relative;
-	width: 6em;
+	width: 10em;
 	margin-top: -5em;
-   margin-bottom: -3em;
+   margin-bottom: -5em;
 }
 
 
@@ -89,17 +97,52 @@ footer > a {
 		display: inline-block;
 		position: relative;
 		width: 6em;
+		height: 6em;
+		background: url(images/twitter.png) no-repeat;
+		background-size: 6em;
+	}
+
+#twitter:hover {
+		display: inline-block;
+		position: relative;
+		width: 6em;
+		height: 6em;
+		background: url(images/twitter_hover.png) no-repeat;
+		background-size: 6em;
 	}
 	
 #jimbutton {
 		display: inline-block;
 		position: relative;
 		width: 6em;
+		height: 6em;
+		background: url(images/jimbutton.png) no-repeat;
+		background-size: 6em;	
+	}
+
+#jimbutton:hover {
+		display: inline-block;
+		position: relative;
+		width: 6em;
+		height: 6em;
+		background: url(images/jimbutton_hover.png) no-repeat;
+		background-size: 6em;	
 	}
 	
 #facebook {
 		display: inline-block;
 		position: relative;
 		width: 6em;
+		height: 6em;
+		background: url(images/fbbutton.png) no-repeat;
+		background-size: 6em;
 	}
-		
+
+#facebook:hover {
+		display: inline-block;
+		position: relative;
+		width: 6em;
+		height: 6em;
+		background: url(images/fbbutton_hover.png) no-repeat;
+		background-size: 6em;
+	}
