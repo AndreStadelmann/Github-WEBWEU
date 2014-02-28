@@ -3,7 +3,7 @@ body {
 	color: #000;
 	font-family: 'Nunito', sans-serif;	
 	margin: 0;
-	font-size: 62.5%;
+	font-size: 0.625em;
 }
 
 header {
@@ -11,56 +11,109 @@ header {
 }
 
 #container {
-	position: absolute;
+	position: relative;
+	padding-bottom: 10em;
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+.textbox {
+	position: relative;
 	background: rgba(0,105,87,0.44);
 	height: auto;
-	width: 50%;
-	left: 25%;
-	border-radius: 5px;
-	margin: 1em;
+	width: 70em;
+	border-radius: 0.5em;
+	margin: auto;
+	margin-top: 3em;
 	padding: 0px 10px 10px 10px;
 }
 
-#container > h1 {
+.textbox > h1 {
+	text-align: left;
 	margin-top: 0;
-	font-size: 40px;
-	border-bottom: 2px solid #000;
+	font-size: 4em;
+	border-bottom: 0.1em solid #000;
 }
-footer {
-		background: rgba(0, 105, 87, 0.7);
-	width: 100%;
+
+#about {
+	position: relative;
 	height: auto;
+	width: 75em;
+	border-radius: 0.5em;
+	margin: auto;
+	margin-top: 3em;
+	text-align: left;
+}
+
+#about h1 {
+	text-align: left;
+	margin-top: 0;
+	font-size: 4em;
+	border-bottom: 0.1em solid #000;
+}
+
+#profile {
+	vertical-align: top;
+	position: relative;
+	display: inline-block;
+	background: rgba(0,105,87,0.44);
+	height: auto;
+	width: 20em;
+	margin: 0;
+	border-radius: 0.5em;
+	padding: 0px 1em 1em 1em;
+}
+
+#abouttext {
+	position: relative;
+	display: inline-block;
+	background: rgba(0,105,87,0.44);
+	height: auto;
+	width: 50em;
+	border-radius: 0.5em;
+	margin: 0;
+	margin-left: 0.5em;
+	padding: 0px 1em 1em 1em;
+}
+
+footer {
+	background: rgba(0, 105, 87, 0.7);
+	width: 100%;
 	position: absolute;
-	top: 100%;
 	left: 0%;
+	display: none;
 }
 
 footer > a {
 	text-decoration: none;
 }
+
 #nav > ul { 
 	position: relative;
-	top:20px;
+	top:2em;
 	width: auto;
 	margin: auto; 
-	padding: 20px; 
+	padding: 2em; 
 	list-style-type: none; 
 	text-align: center; 
 	border-bottom-style: solid;
-	border-bottom-width: 20px;
+	border-bottom-width: 2em;
 	border-bottom-color: #006957;
 	border-top-style: solid;
-	border-top-width: 5px;
+	border-top-width: 0.5em;
 	border-top-color: #006957;
-	margin-bottom: 20px;
+	margin-bottom: 2em;
 }
  
 #nav > ul > li {  
 	display: inline; 
 	position: relative;
 	font-family: 'Nunito', sans-serif;
-	font-size: 20px;
-	width: 40px;
+	font-size: 2em;
+	width: 4em;
 	} 
  
 #nav > ul > li > a {
@@ -71,8 +124,14 @@ footer > a {
 	} 
  
 #nav > ul > li > a:hover { 
-	color: #006957; 
+	color: #00a287; 
 	} 
+
+.thispage {
+	background: #006957;
+	border-bottom: 1em solid #006957;
+	border-radius: 0.3em;
+}
 	
 #headerimg {
 	display: block;
@@ -80,7 +139,7 @@ footer > a {
 	margin-right:auto;
 	position: relative;
 	top:0px;
-	width:150px;
+	width:15em;
 }
 	
 #logo {
@@ -91,8 +150,6 @@ footer > a {
    margin-bottom: -5em;
 }
 
-
-	
 #twitter {
 		display: inline-block;
 		position: relative;
@@ -146,3 +203,9 @@ footer > a {
 		background: url(images/fbbutton_hover.png) no-repeat;
 		background-size: 6em;
 	}
+
+#profileimg {
+	position: relative;
+	width: 100%;
+	margin-top: 1em;
+}
